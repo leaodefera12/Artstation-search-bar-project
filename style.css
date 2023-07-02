@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 2px 8px 40px;
+    background: transparent;
+    border: 2px solid rgb(122, 122, 122);
+    transition: .3s ease-in-out;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:focus-visible{
+    border-color: rgb(153, 153, 255);
+    color: white;
+}
+
+.container span{
+    color: rgb(122, 122, 122);
+    transform: translateX(35px);
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:hover:not(:focus-visible){
+    border-color: rgb(155, 154, 154);
+}
